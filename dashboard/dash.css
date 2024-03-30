@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin:0;
+    color: white;
+    font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #001;
+    display: flex;
+}
+/*
+.profile{
+    display: none; e5tafi 
+}
+*/
+.box{
+    height: 50%;
+    width: 80%;
+    border: 3px dashed white;
+    border-radius: 10%;
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+}
+.profile{
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+.Menu{
+    background-color: #123;
+    width: 50px;
+    height: 100vh;
+    padding: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+    transition: .5s;
+}
+.Menu:hover{
+    width: 260px;
+   
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 100%;
+
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 12px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    transition: .5s;
+}
+ul li a:hover, .dash ,.bigdata .boxin:hover, td:hover{
+    background-color: #ffffff55;
+}
+.log_out{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+.log_out a{
+    background-color: red;
+}
+ul li a i{
+    font-size: 30px;
+}
+.content{
+    width: 100%;
+
+}
+.title{
+    background-color: rgb(11, 183, 183);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+
+}
+.bigdata{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.bigdata .boxin{
+    background-color: #123;
+    height:150px;
+    flex-basis:250px; /* t9assem les catégories eli 3andy */
+    flex-grow: 1;/* idha ken fama espace mat5alihouch fere4 */
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bigdata .boxin i{
+    font-size: 40px;
+}
+
+.bigdata .boxin .data {
+    text-align: center;
+}
+.bigdata .boxin .data span{
+    font-size: 28px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 9px;
+}
+td,th{
+    background-color:rgb(36, 33, 33);
+    height: 40px;
+    border-radius: 8px;
+}
+th{
+    background-color: rgb(11, 183, 183);
+}
+.pri,.cou{
+padding: 8px;
+border-radius: 7px;
+}
+.pri{
+    background-color: green;
+}
+.cou{
+    background-color: gold;
+}
+@media screen and . {
+    
+}
+h2{
+    color:lightskyblue;
+
+}
